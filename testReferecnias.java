@@ -8,6 +8,6 @@ public class testReferecnias {
     gNew.setNombre("Eris Gerente");
     gNew.setSueldo(3000);
 
-
+    gNew.iniciarSesion("_asd");
   }
 }

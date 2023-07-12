@@ -5,8 +5,9 @@ public class testCuenta {
 
     corriente.deposita(2000);
     corriente.transfiere(500, ahorros);
+
     System.out.println(corriente.getSaldo());
-    // System.out.println(ahorros.getSaldo());
+    System.out.println(ahorros.getSaldo());
     // ahorros.deposita(150);
 
 
