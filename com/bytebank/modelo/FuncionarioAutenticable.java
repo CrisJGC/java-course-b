@@ -1,3 +1,4 @@
+package com.bytebank.modelo;
 public class FuncionarioAutenticable {
   
   private int contraseña;

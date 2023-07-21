@@ -1,3 +1,6 @@
+package com.bytebank.test;
+import com.bytebank.modelo.*;
+
 public class testReferecnias {
   public static void main(String[] args) {
     Funcionario fNew = new Gerente();

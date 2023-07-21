@@ -1,3 +1,5 @@
+package com.bytebank.test;
+import com.bytebank.modelo.Gerente;
 public class testGerente {
   public static void main(String[] args) {
     Gerente g1 = new Gerente();

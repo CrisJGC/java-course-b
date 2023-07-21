@@ -1,3 +1,7 @@
+package com.bytebank.test;
+
+import com.bytebank.modelo.*;
+
 public class testCuenta {
   public static void main(String[] args) {
     Cuenta corriente = new CuentaCorriente(1, 1);

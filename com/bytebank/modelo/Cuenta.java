@@ -1,3 +1,12 @@
+package com.bytebank.modelo;
+
+/**
+ * Cuenta va a crear nuevas insrancias de CuentaCorriente
+ * 
+ * @version 1.0
+ * @author Cris
+ */
+
 public abstract class Cuenta {
   protected double saldo;
     private int agencia = 1;
@@ -6,10 +15,20 @@ public abstract class Cuenta {
 
     private static int total;
     
+    /**
+     * Instancia una nueva cuenta sin parametros
+     */
+
     public Cuenta() {
     	
     }
     
+    /**
+     * Instancia una cuenta usando agencia y nombre
+     * @param agencia
+     * @param numero
+     */
+
     public Cuenta( int agencia, int numero) {
         this.agencia = agencia;
         this.numero = numero;
@@ -19,6 +38,12 @@ public abstract class Cuenta {
     }
     
     public abstract void deposita(double valor);
+
+    /**
+     * 
+     * @param valor
+     * @return
+     */
 
     public boolean saca(double valor) {
         if(this.saldo >= valor) {
